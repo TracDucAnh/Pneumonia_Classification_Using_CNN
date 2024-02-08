@@ -32,8 +32,8 @@ def main():
         print(f"Model saved to {filename}.")
 
 def load_data(dataset_dir):
-    train_data_path = os.path.join(dataset_dir, "xray_dataset_covid19", "train")
-    test_data_path = os.path.join(dataset_dir, "xray_dataset_covid19", "test")
+    train_data_path = os.path.join(dataset_dir, "xray_dataset", "train")
+    test_data_path = os.path.join(dataset_dir, "xray_dataset", "test")
 
     x_rays_train = []
 
